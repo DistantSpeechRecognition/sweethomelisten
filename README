@@ -1,0 +1,60 @@
+Introduction
+
+This is an always-listening distant speech multi-microphone interface mainly aiming to 
+recognize commands for home automation control. It currently supports two languages:
+Greek and English, but it could very easily be adapted to any other language.
+
+It is mainly written in Python and has a GUI for recording control and results, 
+based on python-qt4. It supports two speech recognition platforms: kaldi and htk.
+For recording and playback, python alsaaudio is utilized.
+
+The system is always-listening, meaning that it records speech but will not respond or 
+recognize any commands unless it is first activated by a keyword, e.g. "sweet home listen"
+in English or "spitakimou" in Greek. If the system recognizes a keyword, 
+then the command recognition module runs, waiting for a command to be spoken.
+The command recognition module searches inside a pre-defined grammar of commands,
+which is customized by the user.
+
+Apart from the keyword spotting and command recognition modules, the system has
+a couple of optional on-off components, such as voice activity detection, 
+speaker localization and speech enhancement via beamforming (delay & sum or MVDR).
+An optional interface with Vera, a home automation controller, is also provided.
+
+Automatic speech recognition models for Greek and English are already provided in the package.
+Specifically for Greek, the model has been adapted with data from distant-speech databases,
+thus having matched train and test conditions.
+
+The system has been designed mainly for distant speech recognition, which most usually involves 
+more than one microphone (microphone array). However, the number of channels is a tunable parameter
+and it can work for a single microphone as well. Note that the performance may not be
+optimal in this case.
+
+Regarding GUI, it contains one start and stop button to control the recording process,
+and also a space where system prompts appear, as well as the recognition results.
+Also, the user can see the waveform of the recorded speech real-time.
+When the system detects a keyword or a command, a relevant audio file
+with sythesized speech is being played back to the user. (Innoetics speech synthesis engines).
+
+
+Prerequisites for INSTALLATION
+
+The following should be installed and properly running on your system in order to be able to use the package:
+
+python-2.7
+python-dev
+python-alsaaudio
+python-portaudio
+python-qt4
+python-qt4-qwt5
+python-matplotlib
+python-numpy
+python-scipy
+
+If you intend to use HTK, you should have the binaries: HVite, HCopy, HDecode, HERest, HParse and HHed
+and place them inside the bin/linux_x86_64 folder.
+
+If you intend to use kaldi, then you should have set up kaldi properly (including its dependencies).
+Kaldi is distributed via github.
+Installation instructions and more information on kaldi can be found at: http://kaldi-asr.org/doc/install.html
+Download kaldi at: https://github.com/kaldi-asr/kaldi
+

@@ -1,0 +1,693 @@
+VERSION=1.0
+N=316  L=375  
+I=0    W=!NULL               
+I=1    W=!NULL               
+I=2    W=SENT-START          
+I=3    W=anace               
+I=4    W=ton                 
+I=5    W=anemisthra          
+I=6    W=sto                 
+I=7    W=mpanio              
+I=8    W=!NULL               
+I=9    W=anoije              
+I=10   W=ta                  
+I=11   W=fwta                
+I=12   W=anoije              
+I=13   W=ligo                
+I=14   W=ta                  
+I=15   W=storia              
+I=16   W=anoije              
+I=17   W=thn                 
+I=18   W=kyria               
+I=19   W=eisodo              
+I=20   W=anoije              
+I=21   W=thn                 
+I=22   W=porta               
+I=23   W=parakalw            
+I=24   W=anoije              
+I=25   W=thn                 
+I=26   W=porta               
+I=27   W=poy                 
+I=28   W=odhgei              
+I=29   W=sth                 
+I=30   W=beranta             
+I=31   W=anoije              
+I=32   W=thn                 
+I=33   W=porta               
+I=34   W=toy                 
+I=35   W=mpanioy             
+I=36   W=anoije              
+I=37   W=thn                 
+I=38   W=thleorash           
+I=39   W=anoije              
+I=40   W=tis                 
+I=41   W=persides            
+I=42   W=ligo                
+I=43   W=anoije              
+I=44   W=tis                 
+I=45   W=persides            
+I=46   W=sto                 
+I=47   W=kauistiko           
+I=48   W=anoije              
+I=49   W=to                  
+I=50   W=epitrapezio         
+I=51   W=fwtistiko           
+I=52   W=anoije              
+I=53   W=ton                 
+I=54   W=anemisthra          
+I=55   W=anoije              
+I=56   W=ton                 
+I=57   W=anemisthra          
+I=58   W=sth                 
+I=59   W=xamhloterh          
+I=60   W=isxy                
+I=61   W=anoije              
+I=62   W=ton                 
+I=63   W=anemisthra          
+I=64   W=sto                 
+I=65   W=xamhlo              
+I=66   W=anoije              
+I=67   W=ton                 
+I=68   W=ejaeristhra         
+I=69   W=sth                 
+I=70   W=xamhloterh          
+I=71   W=taxythta            
+I=72   W=anoije              
+I=73   W=ton                 
+I=74   W=klimatismo          
+I=75   W=sto                 
+I=76   W=ypnodwmatio         
+I=77   W=anoije              
+I=78   W=to                  
+I=79   W=pistolaki           
+I=80   W=malliwn             
+I=81   W=sto                 
+I=82   W=dynato              
+I=83   W=anoije              
+I=84   W=to                  
+I=85   W=radiofwno           
+I=86   W=apenergopoihse      
+I=87   W=ton                 
+I=88   W=anemisthra          
+I=89   W=se                  
+I=90   W=ayto                
+I=91   W=to                  
+I=92   W=dwmatio             
+I=93   W=ayjhse              
+I=94   W=thn                 
+I=95   W=entash              
+I=96   W=toy                 
+I=97   W=radiofwnoy          
+I=98   W=bale                
+I=99   W=th                  
+I=100  W=uermokrasia         
+I=101  W=stoys               
+I=102  W=eikosi              
+I=103  W=baumoys             
+I=104  W=bale                
+I=105  W=to                  
+I=106  W=kanali              
+I=107  W=ena                 
+I=108  W=kai                 
+I=109  W=meiwse              
+I=110  W=thn                 
+I=111  W=entash              
+I=112  W=bale                
+I=113  W=to                  
+I=114  W=kanali              
+I=115  W=ena                 
+I=116  W=kai                 
+I=117  W=xamhlwse            
+I=118  W=thn                 
+I=119  W=entash              
+I=120  W=bale                
+I=121  W=to                  
+I=122  W=kanali              
+I=123  W=pente               
+I=124  W=bale                
+I=125  W=to                  
+I=126  W=thlefwno            
+I=127  W=sto                 
+I=128  W=auorybo             
+I=129  W=diathrhse           
+I=130  W=th                  
+I=131  W=uermokrasia         
+I=132  W=stoys               
+I=133  W=eikosi              
+I=134  W=baumoys             
+I=135  W=diathrhse           
+I=136  W=th                  
+I=137  W=uermokrasia         
+I=138  W=stoys               
+I=139  W=eikositreis         
+I=140  W=baumoys             
+I=141  W=dynamwse            
+I=142  W=ta                  
+I=143  W=fwta                
+I=144  W=dynamwse            
+I=145  W=thn                 
+I=146  W=entash              
+I=147  W=dynamwse            
+I=148  W=thn                 
+I=149  W=thleorash           
+I=150  W=energopoihse        
+I=151  W=ton                 
+I=152  W=anemisthra          
+I=153  W=kalese              
+I=154  W=ton                 
+I=155  W=aderfo              
+I=156  W=moy                 
+I=157  W=kleidwse            
+I=158  W=thn                 
+I=159  W=porta               
+I=160  W=toy                 
+I=161  W=mpanioy             
+I=162  W=kleise              
+I=163  W=ta                  
+I=164  W=fwta                
+I=165  W=kleise              
+I=166  W=thn                 
+I=167  W=porta               
+I=168  W=kleise              
+I=169  W=thn                 
+I=170  W=porta               
+I=171  W=toy                 
+I=172  W=kauistikoy          
+I=173  W=kleise              
+I=174  W=to                  
+I=175  W=fws                 
+I=176  W=kleise              
+I=177  W=to                  
+I=178  W=fws                 
+I=179  W=konta               
+I=180  W=ston                
+I=181  W=kaurefth            
+I=182  W=kleise              
+I=183  W=ton                 
+I=184  W=anemisthra          
+I=185  W=kleise              
+I=186  W=to                  
+I=187  W=portatif            
+I=188  W=kai                 
+I=189  W=to                  
+I=190  W=fwtistiko           
+I=191  W=dapedoy             
+I=192  W=parakalw            
+I=193  W=kleise              
+I=194  W=thn                 
+I=195  W=thleorash           
+I=196  W=kai                 
+I=197  W=ta                  
+I=198  W=fwta                
+I=199  W=toy                 
+I=200  W=kauistikoy          
+I=201  W=parakalw            
+I=202  W=sbhse               
+I=203  W=thn                 
+I=204  W=thleorash           
+I=205  W=kai                 
+I=206  W=ta                  
+I=207  W=fwta                
+I=208  W=toy                 
+I=209  W=salonioy            
+I=210  W=ryumise             
+I=211  W=th                  
+I=212  W=uermokrasia         
+I=213  W=stoys               
+I=214  W=eikosidyo           
+I=215  W=baumoys             
+I=216  W=sbhse               
+I=217  W=th                  
+I=218  W=uermansh            
+I=219  W=se                  
+I=220  W=ayto                
+I=221  W=to                  
+I=222  W=dwmatio             
+I=223  W=sbhse               
+I=224  W=to                  
+I=225  W=fws                 
+I=226  W=konta               
+I=227  W=ston                
+I=228  W=kaurefth            
+I=229  W=sbhse               
+I=230  W=to                  
+I=231  W=fws                 
+I=232  W=panw                
+I=233  W=apo                 
+I=234  W=thn                 
+I=235  W=koyzina             
+I=236  W=sbhse               
+I=237  W=to                  
+I=238  W=fws                 
+I=239  W=panw                
+I=240  W=apo                 
+I=241  W=to                  
+I=242  W=trapezi             
+I=243  W=sbhse               
+I=244  W=to                  
+I=245  W=fws                 
+I=246  W=twn                 
+I=247  W=dyo                 
+I=248  W=komodinwn           
+I=249  W=sbhse               
+I=250  W=to                  
+I=251  W=lampthra            
+I=252  W=fuorismoy           
+I=253  W=sthn                
+I=254  W=koyzina             
+I=255  W=sbhse               
+I=256  W=ton                 
+I=257  W=anemisthra          
+I=258  W=spitakimoy          
+I=259  W=akoyse              
+I=260  W=steile              
+I=261  W=mhnyma              
+I=262  W=keimenoy            
+I=263  W=eimai               
+I=264  W=apasxolhmenos       
+I=265  W=apoce               
+I=266  W=to                  
+I=267  W=brady               
+I=268  W=syntonise           
+I=269  W=to                  
+I=270  W=radiofwno           
+I=271  W=sto                 
+I=272  W=staumo              
+I=273  W=era                 
+I=274  W=dyo                 
+I=275  W=thlefwnhse          
+I=276  W=ston                
+I=277  W=aderfo              
+I=278  W=moy                 
+I=279  W=ua                  
+I=280  W=mporoyses           
+I=281  W=na                  
+I=282  W=anoijeis            
+I=283  W=to                  
+I=284  W=kyrio               
+I=285  W=fws                 
+I=286  W=sto                 
+I=287  W=kauistiko           
+I=288  W=ua                  
+I=289  W=mporoyses           
+I=290  W=na                  
+I=291  W=anoijeis            
+I=292  W=to                  
+I=293  W=kyrio               
+I=294  W=fws                 
+I=295  W=sto                 
+I=296  W=saloni              
+I=297  W=uelw                
+I=298  W=na                  
+I=299  W=anoijw              
+I=300  W=tis                 
+I=301  W=persides            
+I=302  W=toy                 
+I=303  W=salonioy            
+I=304  W=xamhlwse            
+I=305  W=th                  
+I=306  W=uermokrasia         
+I=307  W=sto                 
+I=308  W=mpanio              
+I=309  W=xamhlwse            
+I=310  W=to                  
+I=311  W=radiofwno           
+I=312  W=xamhlwse            
+I=313  W=ta                  
+I=314  W=fwta                
+I=315  W=SENT-END            
+J=0     S=315  E=1    
+J=1     S=0    E=2    
+J=2     S=2    E=3    
+J=3     S=3    E=4    
+J=4     S=4    E=5    
+J=5     S=5    E=6    
+J=6     S=6    E=7    
+J=7     S=7    E=8    
+J=8     S=11   E=8    
+J=9     S=15   E=8    
+J=10    S=19   E=8    
+J=11    S=23   E=8    
+J=12    S=30   E=8    
+J=13    S=35   E=8    
+J=14    S=38   E=8    
+J=15    S=42   E=8    
+J=16    S=47   E=8    
+J=17    S=51   E=8    
+J=18    S=54   E=8    
+J=19    S=60   E=8    
+J=20    S=65   E=8    
+J=21    S=71   E=8    
+J=22    S=76   E=8    
+J=23    S=82   E=8    
+J=24    S=85   E=8    
+J=25    S=92   E=8    
+J=26    S=97   E=8    
+J=27    S=103  E=8    
+J=28    S=111  E=8    
+J=29    S=119  E=8    
+J=30    S=123  E=8    
+J=31    S=128  E=8    
+J=32    S=134  E=8    
+J=33    S=140  E=8    
+J=34    S=143  E=8    
+J=35    S=146  E=8    
+J=36    S=149  E=8    
+J=37    S=152  E=8    
+J=38    S=156  E=8    
+J=39    S=161  E=8    
+J=40    S=164  E=8    
+J=41    S=167  E=8    
+J=42    S=172  E=8    
+J=43    S=175  E=8    
+J=44    S=181  E=8    
+J=45    S=184  E=8    
+J=46    S=191  E=8    
+J=47    S=200  E=8    
+J=48    S=209  E=8    
+J=49    S=215  E=8    
+J=50    S=222  E=8    
+J=51    S=228  E=8    
+J=52    S=235  E=8    
+J=53    S=242  E=8    
+J=54    S=248  E=8    
+J=55    S=254  E=8    
+J=56    S=257  E=8    
+J=57    S=259  E=8    
+J=58    S=267  E=8    
+J=59    S=274  E=8    
+J=60    S=278  E=8    
+J=61    S=287  E=8    
+J=62    S=296  E=8    
+J=63    S=303  E=8    
+J=64    S=308  E=8    
+J=65    S=311  E=8    
+J=66    S=314  E=8    
+J=67    S=2    E=9    
+J=68    S=9    E=10   
+J=69    S=10   E=11   
+J=70    S=2    E=12   
+J=71    S=12   E=13   
+J=72    S=13   E=14   
+J=73    S=14   E=15   
+J=74    S=2    E=16   
+J=75    S=16   E=17   
+J=76    S=17   E=18   
+J=77    S=18   E=19   
+J=78    S=2    E=20   
+J=79    S=20   E=21   
+J=80    S=21   E=22   
+J=81    S=22   E=23   
+J=82    S=2    E=24   
+J=83    S=24   E=25   
+J=84    S=25   E=26   
+J=85    S=26   E=27   
+J=86    S=27   E=28   
+J=87    S=28   E=29   
+J=88    S=29   E=30   
+J=89    S=2    E=31   
+J=90    S=31   E=32   
+J=91    S=32   E=33   
+J=92    S=33   E=34   
+J=93    S=34   E=35   
+J=94    S=2    E=36   
+J=95    S=36   E=37   
+J=96    S=37   E=38   
+J=97    S=2    E=39   
+J=98    S=39   E=40   
+J=99    S=40   E=41   
+J=100   S=41   E=42   
+J=101   S=2    E=43   
+J=102   S=43   E=44   
+J=103   S=44   E=45   
+J=104   S=45   E=46   
+J=105   S=46   E=47   
+J=106   S=2    E=48   
+J=107   S=48   E=49   
+J=108   S=49   E=50   
+J=109   S=50   E=51   
+J=110   S=2    E=52   
+J=111   S=52   E=53   
+J=112   S=53   E=54   
+J=113   S=2    E=55   
+J=114   S=55   E=56   
+J=115   S=56   E=57   
+J=116   S=57   E=58   
+J=117   S=58   E=59   
+J=118   S=59   E=60   
+J=119   S=2    E=61   
+J=120   S=61   E=62   
+J=121   S=62   E=63   
+J=122   S=63   E=64   
+J=123   S=64   E=65   
+J=124   S=2    E=66   
+J=125   S=66   E=67   
+J=126   S=67   E=68   
+J=127   S=68   E=69   
+J=128   S=69   E=70   
+J=129   S=70   E=71   
+J=130   S=2    E=72   
+J=131   S=72   E=73   
+J=132   S=73   E=74   
+J=133   S=74   E=75   
+J=134   S=75   E=76   
+J=135   S=2    E=77   
+J=136   S=77   E=78   
+J=137   S=78   E=79   
+J=138   S=79   E=80   
+J=139   S=80   E=81   
+J=140   S=81   E=82   
+J=141   S=2    E=83   
+J=142   S=83   E=84   
+J=143   S=84   E=85   
+J=144   S=2    E=86   
+J=145   S=86   E=87   
+J=146   S=87   E=88   
+J=147   S=88   E=89   
+J=148   S=89   E=90   
+J=149   S=90   E=91   
+J=150   S=91   E=92   
+J=151   S=2    E=93   
+J=152   S=93   E=94   
+J=153   S=94   E=95   
+J=154   S=95   E=96   
+J=155   S=96   E=97   
+J=156   S=2    E=98   
+J=157   S=98   E=99   
+J=158   S=99   E=100  
+J=159   S=100  E=101  
+J=160   S=101  E=102  
+J=161   S=102  E=103  
+J=162   S=2    E=104  
+J=163   S=104  E=105  
+J=164   S=105  E=106  
+J=165   S=106  E=107  
+J=166   S=107  E=108  
+J=167   S=108  E=109  
+J=168   S=109  E=110  
+J=169   S=110  E=111  
+J=170   S=2    E=112  
+J=171   S=112  E=113  
+J=172   S=113  E=114  
+J=173   S=114  E=115  
+J=174   S=115  E=116  
+J=175   S=116  E=117  
+J=176   S=117  E=118  
+J=177   S=118  E=119  
+J=178   S=2    E=120  
+J=179   S=120  E=121  
+J=180   S=121  E=122  
+J=181   S=122  E=123  
+J=182   S=2    E=124  
+J=183   S=124  E=125  
+J=184   S=125  E=126  
+J=185   S=126  E=127  
+J=186   S=127  E=128  
+J=187   S=2    E=129  
+J=188   S=129  E=130  
+J=189   S=130  E=131  
+J=190   S=131  E=132  
+J=191   S=132  E=133  
+J=192   S=133  E=134  
+J=193   S=2    E=135  
+J=194   S=135  E=136  
+J=195   S=136  E=137  
+J=196   S=137  E=138  
+J=197   S=138  E=139  
+J=198   S=139  E=140  
+J=199   S=2    E=141  
+J=200   S=141  E=142  
+J=201   S=142  E=143  
+J=202   S=2    E=144  
+J=203   S=144  E=145  
+J=204   S=145  E=146  
+J=205   S=2    E=147  
+J=206   S=147  E=148  
+J=207   S=148  E=149  
+J=208   S=2    E=150  
+J=209   S=150  E=151  
+J=210   S=151  E=152  
+J=211   S=2    E=153  
+J=212   S=153  E=154  
+J=213   S=154  E=155  
+J=214   S=155  E=156  
+J=215   S=2    E=157  
+J=216   S=157  E=158  
+J=217   S=158  E=159  
+J=218   S=159  E=160  
+J=219   S=160  E=161  
+J=220   S=2    E=162  
+J=221   S=162  E=163  
+J=222   S=163  E=164  
+J=223   S=2    E=165  
+J=224   S=165  E=166  
+J=225   S=166  E=167  
+J=226   S=2    E=168  
+J=227   S=168  E=169  
+J=228   S=169  E=170  
+J=229   S=170  E=171  
+J=230   S=171  E=172  
+J=231   S=2    E=173  
+J=232   S=173  E=174  
+J=233   S=174  E=175  
+J=234   S=2    E=176  
+J=235   S=176  E=177  
+J=236   S=177  E=178  
+J=237   S=178  E=179  
+J=238   S=179  E=180  
+J=239   S=180  E=181  
+J=240   S=2    E=182  
+J=241   S=182  E=183  
+J=242   S=183  E=184  
+J=243   S=2    E=185  
+J=244   S=185  E=186  
+J=245   S=186  E=187  
+J=246   S=187  E=188  
+J=247   S=188  E=189  
+J=248   S=189  E=190  
+J=249   S=190  E=191  
+J=250   S=2    E=192  
+J=251   S=192  E=193  
+J=252   S=193  E=194  
+J=253   S=194  E=195  
+J=254   S=195  E=196  
+J=255   S=196  E=197  
+J=256   S=197  E=198  
+J=257   S=198  E=199  
+J=258   S=199  E=200  
+J=259   S=2    E=201  
+J=260   S=201  E=202  
+J=261   S=202  E=203  
+J=262   S=203  E=204  
+J=263   S=204  E=205  
+J=264   S=205  E=206  
+J=265   S=206  E=207  
+J=266   S=207  E=208  
+J=267   S=208  E=209  
+J=268   S=2    E=210  
+J=269   S=210  E=211  
+J=270   S=211  E=212  
+J=271   S=212  E=213  
+J=272   S=213  E=214  
+J=273   S=214  E=215  
+J=274   S=2    E=216  
+J=275   S=216  E=217  
+J=276   S=217  E=218  
+J=277   S=218  E=219  
+J=278   S=219  E=220  
+J=279   S=220  E=221  
+J=280   S=221  E=222  
+J=281   S=2    E=223  
+J=282   S=223  E=224  
+J=283   S=224  E=225  
+J=284   S=225  E=226  
+J=285   S=226  E=227  
+J=286   S=227  E=228  
+J=287   S=2    E=229  
+J=288   S=229  E=230  
+J=289   S=230  E=231  
+J=290   S=231  E=232  
+J=291   S=232  E=233  
+J=292   S=233  E=234  
+J=293   S=234  E=235  
+J=294   S=2    E=236  
+J=295   S=236  E=237  
+J=296   S=237  E=238  
+J=297   S=238  E=239  
+J=298   S=239  E=240  
+J=299   S=240  E=241  
+J=300   S=241  E=242  
+J=301   S=2    E=243  
+J=302   S=243  E=244  
+J=303   S=244  E=245  
+J=304   S=245  E=246  
+J=305   S=246  E=247  
+J=306   S=247  E=248  
+J=307   S=2    E=249  
+J=308   S=249  E=250  
+J=309   S=250  E=251  
+J=310   S=251  E=252  
+J=311   S=252  E=253  
+J=312   S=253  E=254  
+J=313   S=2    E=255  
+J=314   S=255  E=256  
+J=315   S=256  E=257  
+J=316   S=2    E=258  
+J=317   S=258  E=259  
+J=318   S=2    E=260  
+J=319   S=260  E=261  
+J=320   S=261  E=262  
+J=321   S=262  E=263  
+J=322   S=263  E=264  
+J=323   S=264  E=265  
+J=324   S=265  E=266  
+J=325   S=266  E=267  
+J=326   S=2    E=268  
+J=327   S=268  E=269  
+J=328   S=269  E=270  
+J=329   S=270  E=271  
+J=330   S=271  E=272  
+J=331   S=272  E=273  
+J=332   S=273  E=274  
+J=333   S=2    E=275  
+J=334   S=275  E=276  
+J=335   S=276  E=277  
+J=336   S=277  E=278  
+J=337   S=2    E=279  
+J=338   S=279  E=280  
+J=339   S=280  E=281  
+J=340   S=281  E=282  
+J=341   S=282  E=283  
+J=342   S=283  E=284  
+J=343   S=284  E=285  
+J=344   S=285  E=286  
+J=345   S=286  E=287  
+J=346   S=2    E=288  
+J=347   S=288  E=289  
+J=348   S=289  E=290  
+J=349   S=290  E=291  
+J=350   S=291  E=292  
+J=351   S=292  E=293  
+J=352   S=293  E=294  
+J=353   S=294  E=295  
+J=354   S=295  E=296  
+J=355   S=2    E=297  
+J=356   S=297  E=298  
+J=357   S=298  E=299  
+J=358   S=299  E=300  
+J=359   S=300  E=301  
+J=360   S=301  E=302  
+J=361   S=302  E=303  
+J=362   S=2    E=304  
+J=363   S=304  E=305  
+J=364   S=305  E=306  
+J=365   S=306  E=307  
+J=366   S=307  E=308  
+J=367   S=2    E=309  
+J=368   S=309  E=310  
+J=369   S=310  E=311  
+J=370   S=2    E=312  
+J=371   S=312  E=313  
+J=372   S=313  E=314  
+J=373   S=2    E=315  
+J=374   S=8    E=315  

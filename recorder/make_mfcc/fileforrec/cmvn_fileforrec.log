@@ -1,0 +1,2 @@
+compute-cmvn-stats --spk2utt=ark:wavs/fileforrec/spk2utt scp:wavs/fileforrec/feats.scp ark,scp:/home/antigoni/Desktop/spitakimou/kws/recorder/mfcc/cmvn_fileforrec.ark,/home/antigoni/Desktop/spitakimou/kws/recorder/mfcc/cmvn_fileforrec.scp 
+LOG (compute-cmvn-stats:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 1 utterances; 0 had errors.

@@ -1,0 +1,96 @@
+VERSION=1.0
+N=43   L=51   
+I=0    W=!NULL               
+I=1    W=!NULL               
+I=2    W=SENT-START          
+I=3    W=TURN                
+I=4    W=ON                  
+I=5    W=THE                 
+I=6    W=LIGHT               
+I=7    W=!NULL               
+I=8    W=TURN                
+I=9    W=OFF                 
+I=10   W=THE                 
+I=11   W=LIGHT               
+I=12   W=SWITCH              
+I=13   W=ON                  
+I=14   W=THE                 
+I=15   W=LIGHT               
+I=16   W=SWITCH              
+I=17   W=OFF                 
+I=18   W=THE                 
+I=19   W=LIGHT               
+I=20   W=LOWER               
+I=21   W=THE                 
+I=22   W=LIGHT               
+I=23   W=RAISE               
+I=24   W=THE                 
+I=25   W=LIGHT               
+I=26   W=TURN                
+I=27   W=ON                  
+I=28   W=THE                 
+I=29   W=FAN                 
+I=30   W=TURN                
+I=31   W=OFF                 
+I=32   W=THE                 
+I=33   W=FAN                 
+I=34   W=SWITCH              
+I=35   W=ON                  
+I=36   W=THE                 
+I=37   W=FAN                 
+I=38   W=SWITCH              
+I=39   W=OFF                 
+I=40   W=THE                 
+I=41   W=FAN                 
+I=42   W=SENT-END            
+J=0     S=42   E=1    
+J=1     S=0    E=2    
+J=2     S=2    E=3    
+J=3     S=3    E=4    
+J=4     S=4    E=5    
+J=5     S=5    E=6    
+J=6     S=6    E=7    
+J=7     S=11   E=7    
+J=8     S=15   E=7    
+J=9     S=19   E=7    
+J=10    S=22   E=7    
+J=11    S=25   E=7    
+J=12    S=29   E=7    
+J=13    S=33   E=7    
+J=14    S=37   E=7    
+J=15    S=41   E=7    
+J=16    S=2    E=8    
+J=17    S=8    E=9    
+J=18    S=9    E=10   
+J=19    S=10   E=11   
+J=20    S=2    E=12   
+J=21    S=12   E=13   
+J=22    S=13   E=14   
+J=23    S=14   E=15   
+J=24    S=2    E=16   
+J=25    S=16   E=17   
+J=26    S=17   E=18   
+J=27    S=18   E=19   
+J=28    S=2    E=20   
+J=29    S=20   E=21   
+J=30    S=21   E=22   
+J=31    S=2    E=23   
+J=32    S=23   E=24   
+J=33    S=24   E=25   
+J=34    S=2    E=26   
+J=35    S=26   E=27   
+J=36    S=27   E=28   
+J=37    S=28   E=29   
+J=38    S=2    E=30   
+J=39    S=30   E=31   
+J=40    S=31   E=32   
+J=41    S=32   E=33   
+J=42    S=2    E=34   
+J=43    S=34   E=35   
+J=44    S=35   E=36   
+J=45    S=36   E=37   
+J=46    S=2    E=38   
+J=47    S=38   E=39   
+J=48    S=39   E=40   
+J=49    S=40   E=41   
+J=50    S=7    E=42   

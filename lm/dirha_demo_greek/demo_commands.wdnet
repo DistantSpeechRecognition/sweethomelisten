@@ -1,0 +1,122 @@
+VERSION=1.0
+N=53   L=67   
+I=0    W=!NULL               
+I=1    W=!NULL               
+I=2    W=SENT-START          
+I=3    W=anace               
+I=4    W=ton                 
+I=5    W=anemisthra          
+I=6    W=!NULL               
+I=7    W=anoije              
+I=8    W=ta                  
+I=9    W=fwta                
+I=10   W=anoije              
+I=11   W=ton                 
+I=12   W=anemisthra          
+I=13   W=apenergopoihse      
+I=14   W=ton                 
+I=15   W=anemisthra          
+I=16   W=dynamwse            
+I=17   W=ta                  
+I=18   W=fwta                
+I=19   W=energopoihse        
+I=20   W=ton                 
+I=21   W=anemisthra          
+I=22   W=kleise              
+I=23   W=ta                  
+I=24   W=fwta                
+I=25   W=anoije              
+I=26   W=to                  
+I=27   W=fws                 
+I=28   W=anace               
+I=29   W=to                  
+I=30   W=fws                 
+I=31   W=dynamwse            
+I=32   W=to                  
+I=33   W=fws                 
+I=34   W=dynamwse            
+I=35   W=to                  
+I=36   W=fwtismo             
+I=37   W=kleise              
+I=38   W=ton                 
+I=39   W=anemisthra          
+I=40   W=sbhse               
+I=41   W=ton                 
+I=42   W=anemisthra          
+I=43   W=xamhlwse            
+I=44   W=ta                  
+I=45   W=fwta                
+I=46   W=xamhlwse            
+I=47   W=to                  
+I=48   W=fwtismo             
+I=49   W=sbhse               
+I=50   W=ta                  
+I=51   W=fwta                
+I=52   W=SENT-END            
+J=0     S=52   E=1    
+J=1     S=0    E=2    
+J=2     S=2    E=3    
+J=3     S=3    E=4    
+J=4     S=4    E=5    
+J=5     S=5    E=6    
+J=6     S=9    E=6    
+J=7     S=12   E=6    
+J=8     S=15   E=6    
+J=9     S=18   E=6    
+J=10    S=21   E=6    
+J=11    S=24   E=6    
+J=12    S=27   E=6    
+J=13    S=30   E=6    
+J=14    S=33   E=6    
+J=15    S=36   E=6    
+J=16    S=39   E=6    
+J=17    S=42   E=6    
+J=18    S=45   E=6    
+J=19    S=48   E=6    
+J=20    S=51   E=6    
+J=21    S=2    E=7    
+J=22    S=7    E=8    
+J=23    S=8    E=9    
+J=24    S=2    E=10   
+J=25    S=10   E=11   
+J=26    S=11   E=12   
+J=27    S=2    E=13   
+J=28    S=13   E=14   
+J=29    S=14   E=15   
+J=30    S=2    E=16   
+J=31    S=16   E=17   
+J=32    S=17   E=18   
+J=33    S=2    E=19   
+J=34    S=19   E=20   
+J=35    S=20   E=21   
+J=36    S=2    E=22   
+J=37    S=22   E=23   
+J=38    S=23   E=24   
+J=39    S=2    E=25   
+J=40    S=25   E=26   
+J=41    S=26   E=27   
+J=42    S=2    E=28   
+J=43    S=28   E=29   
+J=44    S=29   E=30   
+J=45    S=2    E=31   
+J=46    S=31   E=32   
+J=47    S=32   E=33   
+J=48    S=2    E=34   
+J=49    S=34   E=35   
+J=50    S=35   E=36   
+J=51    S=2    E=37   
+J=52    S=37   E=38   
+J=53    S=38   E=39   
+J=54    S=2    E=40   
+J=55    S=40   E=41   
+J=56    S=41   E=42   
+J=57    S=2    E=43   
+J=58    S=43   E=44   
+J=59    S=44   E=45   
+J=60    S=2    E=46   
+J=61    S=46   E=47   
+J=62    S=47   E=48   
+J=63    S=2    E=49   
+J=64    S=49   E=50   
+J=65    S=50   E=51   
+J=66    S=6    E=52   

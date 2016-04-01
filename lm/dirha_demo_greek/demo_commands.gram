@@ -1,0 +1,17 @@
+$c1 = anace ton anemisthra;
+$c2 = anoije ta fwta ;
+$c3 = anoije ton anemisthra;
+$c4 = apenergopoihse ton anemisthra;
+$c5 = dynamwse ta fwta;
+$c6 = energopoihse ton anemisthra;
+$c7 = kleise ta fwta;
+$c8 = anoije to fws;
+$c9 = anace to fws;
+$c10 = dynamwse to fws;
+$c11 = dynamwse to fwtismo;
+$c12 = kleise ton anemisthra;
+$c13 = sbhse ton anemisthra;
+$c14 = xamhlwse ta fwta;
+$c15 = xamhlwse to fwtismo;
+$c16 = sbhse ta fwta;
+( SENT-START ( $c1 | $c2 | $c3 | $c4 | $c5 | $c6 | $c7 | $c8 | $c9 | $c10 | $c11 | $c12 | $c13 | $c14 | $c15 | $c16 ) SENT-END )

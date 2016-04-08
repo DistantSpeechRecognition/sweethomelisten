@@ -23,7 +23,7 @@ An optional interface with Vera, a home automation controller, is also provided.
 Automatic speech recognition models for Greek and English are already provided in the package.
 You can download them for HTK-Greek and HTK-English and Kaldi-English from:
 
-http://cvsp.cs.ntua.gr/~antigoni/dngjnksndjgk/
+http://cvsp.cs.ntua.gr/research/software/dngjnksndjgk/
 
 Specifically for Greek, the model has been adapted with data from distant-speech databases,
 thus having matched train and test conditions.
